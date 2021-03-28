@@ -16,11 +16,16 @@
 	- Multidigit Symbolic Multiplication
 		- Double on Single
 		- Triple on Single
+		- Double on Double
+		- Triple on Triple
 		- Algorithm
-
 
 - Arithmetic and Geometric Sequences
 
+- Division
+	- Euclidean Division as Making Equal Groups
+	- 
+- 
 - Division/Fractions
 - Equivalent Fractions
 - Comparing Fractions

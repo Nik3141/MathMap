@@ -354,6 +354,8 @@ Probability
 Permutations
 Combinations
 
+factorial of a matrix
+
 ***7th Grade***
 Analyze and evalutate proportional relationships
 Extend operations to rational numbers
