@@ -20,3 +20,4 @@ These notes are either unfinished or unlinked:
 - [[Mode]]
 - [[Mean]]
 - [[Median]]
+- [[Vectors and Linear Algebra]]

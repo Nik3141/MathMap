@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Contributor Information/Road Map/Intermediate Arithmetic.md",
+            "file": "Contributor Information/Road Map/Category Theory.md",
             "mode": "preview"
           }
         }
@@ -63,7 +63,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "25bfce8f8fa76dd9",
@@ -79,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Contributor Information/Road Map/Intermediate Arithmetic.md",
+                "file": "Contributor Information/Road Map/Category Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,15 +105,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Contributor Information/Road Map/Intermediate Arithmetic.md",
-    "Contributor Information/Road Map/Basic Geometry.md",
-    "Incomplete Notes/Mode.md",
-    "Contributor Information/Incomplete Notes.md",
-    "Incomplete Notes/Mean.md",
-    "Median.md",
-    "Incomplete Notes/Median.md",
-    "Mean.md",
+    "Contributor Information/Road Map/Category Theory.md",
+    "Category Theory.md",
+    "Incomplete Notes/Point-Set Topology.md",
     "Contributor Information/Road Map/Road Map.md",
-    "Contributor Information/Add These.md"
+    "Contributor Information/Road Map/Basic Counting and Arithmetic.md",
+    "Logic/Propositional Logic/Propositional Variables.md",
+    "Logic/Propositional Logic/Conjunction.md",
+    "Set Theory/Subsets and Supersets.md",
+    "Set Theory/Cardinality.md",
+    "Set Theory/Notating Sets and Elements.md"
   ]
 }
