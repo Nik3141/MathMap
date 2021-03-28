@@ -12,6 +12,7 @@ You can place links to planning notes for new sequences here.
 - [[Basic Naive Set Theory]]
 - [[Basic Propositional Logic]]
 - [[Category Theory]]
+- [[Euclidean Vectors]]
 - History of Mathematics Note in Introduction Sequence
 - 
 

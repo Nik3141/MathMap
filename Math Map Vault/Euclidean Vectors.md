@@ -1,0 +1,44 @@
+# Euclidean Vectors
+
+---
+
+- 1D Vectors
+	- Definition
+		- Magnitude, Direction, Positionless
+		- Initial Point and Terminal Point
+	- Standard Position
+		- Coordinate representation
+	- 0 Vector and Unit Vector
+	- Addition
+	- Scalar Multiplication
+	- Subtraction
+	- Breaking into Components
+	- Normalization
+- 2D Vectors
+	- Definition
+		- Magnitude, Direction, Positionless
+		- Initial Point and Terminal Point
+	- Standard Position
+		- Coordinate Representation
+		- Finding Magnitude
+	- 0 Vector and Unit Vector
+	- Addition
+	- Scalar Multiplication
+	- Subtraction
+	- Breaking into Components
+	- Normalization
+- 3D and Generalized Dimensional Vectors
+	- Definition
+		- Magnitude, Direction, Positionless
+		- Initial Point and Terminal Point
+	- Standard Position
+		- Coordinate Representation
+		- Finding Magnitude
+	- 0 Vector and Unit Vector
+	- Addition
+	- Scalar Multiplication
+	- Subtraction
+	- Breaking into Components
+	- Normalization
+
+---
