@@ -6,13 +6,14 @@
 
 You can place links to planning notes for new sequences here.
 
-- [[Basic Counting and Arithmetic]]
+- [[Basic Arithmetic]]
 - [[Intermediate Arithmetic]]
 - [[Basic Geometry]]
 - [[Basic Naive Set Theory]]
 - [[Basic Propositional Logic]]
 - [[Category Theory]]
 - [[Euclidean Vectors]]
+- [[Topology]]
 - History of Mathematics Note in Introduction Sequence
 - 
 

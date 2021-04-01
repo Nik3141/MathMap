@@ -23,7 +23,12 @@
 - Arithmetic and Geometric Sequences
 
 - Division
-	- Euclidean Division as Making Equal Groups
+	- Division as Making Equal Groups
+	- Division with no Remainder
+	- 'Opposite' of Multiplication
+	- Euclidean Division
+	- Modulo Operator
+	- Long Euclidean Division
 	- 
 - 
 - Division/Fractions

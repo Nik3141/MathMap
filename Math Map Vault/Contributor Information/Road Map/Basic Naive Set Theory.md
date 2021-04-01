@@ -4,8 +4,6 @@
 
 ---
 
-
-Basic Version:
 - Sets, Elements, and Membership
 - Roster Notation
 - Membership Rules
@@ -14,13 +12,11 @@ Basic Version:
 - Cardinality
 	- Singletons
 	- Empty Set
-
-
-Advanced Version:
 - Notating Membership
 - Universal Set
 - Subsets and Supersets
 - Proper Subsets and Supersets
 - Nested Sets
+- Cofinite and Cocountable Subsets
 
 ---

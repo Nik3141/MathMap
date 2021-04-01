@@ -21,3 +21,5 @@ These notes are either unfinished or unlinked:
 - [[Mean]]
 - [[Median]]
 - [[Galois Theory]]
+- [[Jacobian]]
+- [[Vieta's Formulas]]

@@ -1,6 +1,6 @@
 #arithmetic
 
-# Basic Counting and Arithmetic
+# Basic Arithmetic
 
 ---
 - Representing Numbers with Pictures
