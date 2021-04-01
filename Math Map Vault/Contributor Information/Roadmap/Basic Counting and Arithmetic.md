@@ -1,0 +1,69 @@
+#arithmetic
+
+# Basic Counting and Arithmetic
+
+---
+- Representing Numbers with Pictures
+	- Counting to 20
+		- Finding Previous/Next Numbers
+		- Cardinal, Ordinal, and Nominal Numbers
+	- Zero
+	- Comparing Numbers
+		- Greater Than/Less Than/Equal To (with \<, \>, \=, ≤, ≥)
+		- Ordering Sets of Numbers
+		- Finding Greatest/Least Number
+	- Elementary Arithmetic
+		- Finding Sums
+			- Commutativity
+		- Finding Differences
+		- Decomposing Numbers into Sums
+			- Base 3
+			- Base 4
+			- Base 5
+				- Representing Numbers Using Tally Marks
+			- Base 10
+		- Finding Equivalent Sums
+	- Place Value
+		- 2 Digit Sums
+		- 2 Digit Differences
+
+- Representing Numbers with Symbols
+	- Equating Symbols with Pictures
+	- Place Value Digits
+	- Representing Numbers with a Number Line
+		- Finding Numbers on a Number Line
+		- Finding Previous/Next Numbers
+		- Finding Missing Numbers on a Number Line
+	- Counting to 100
+		- Greater Than/Less Than/Equal To (with \<, \>, \=, ≤, ≥)
+		- Ordering Sets of Numbers
+		- Finding Greatest/Least Number
+		- Decomposing Numbers into Base 10 Sums
+		- Counting by 1s, 2s, 3s, 4s, etc
+	- Additive Identity
+	- Double Digit Sums
+		- Single and Single
+		- Double and Single
+		- Double and Double
+	- Double Digit Differences
+		- Single and Single
+		- Double and Single
+		- Double and Double
+
+- Counting to 1000
+	-   Greater Than/Less Than/Equal To (with <, \>, \=, ≤, ≥)
+    -   Ordering Sets of Numbers
+    -   Finding Greatest/Least Number
+    -   Decomposing Numbers into Base 10 Sums
+	-   Counting by 1s, 2s, 3s, 4s, etc
+	- Triple Digit Sums
+		- Single and Triple
+		- Double and Triple
+		- Triple and Triple
+		- Algorithm
+	- Triple Digit Differences
+		- Single and Triple
+		- Double and Triple
+		- Triple and Triple
+		- Algorithm
+---

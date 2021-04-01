@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+#statistics 
+=======
 #statistics
+>>>>>>> upstream/main
 # Mode
 ---
 The _mode_ of a sample is the most frequently occuring value; the value which appears the "most" in a sample.
