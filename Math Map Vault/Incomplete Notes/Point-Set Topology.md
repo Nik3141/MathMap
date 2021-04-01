@@ -4,6 +4,83 @@
 
 ---
 
+Note: rewrite in terms of familes of sets once that note is added.
+
+Say we have a set $X$. Recall that $\mathcal{P}(X)$ - the power set of $X$ - is the set containing all possible subsets of $X$.
+
+Now suppose that we pick certain elements from $\mathcal{P}(X)$ and put them in a set: we've created a subset of $\mathcal{P}(X)$. This subset, if it meets certain conditions, is called a **topology** on $X$, and the elements of this topology are called "open sets".
+
+Thus a **topology** on $X$ is a set whose elements are subsets of $X$ and which satisfies the following conditions:
+
+- the empty set and the entire set $X$ are open sets
+- the intersection of any finite collection of open sets must be an open set
+- the union of any finite collection of open sets must be an open set
+- the union of any infinite collection of open sets must be an open set
+
+Remember that a set being "open" simply means that it's an element of the topology.
+
+Note that *any* subset of $\mathcal{P}(X)$ which satisfies these conditions is a topology on $X$. So there can be many different topologies on $X$.
+
+Let's look at a few different examples of topologies (we normally use a tau ($\tau$), sometimes with a subscript, to denote topologies) on a sample set $X = \{a, b, c, d\}$. Four of these are valid topologies, but one of them is not; see if you can figure out which set isn't a topology on $X$:
+
+- $\tau_1 = \{\emptyset, X\}$
+- $\tau_2 = \mathcal{P}(X)$
+- $\tau_3 = \{\emptyset, \{c\}, X\}$
+- $\tau_4 = \{\emptyset, \{a\}, \{a, b\}, X\}$
+- $\tau_5 = \{\emptyset, \{a\}, \{b\}, \{c\}, \{a, b\}, \{b, c\}, \{a, c\}, X\}$
+
+Let's verify that these are valid topologies.
+
+$\tau_1$ contains the empty set and the entire set as elements, so it meets our first condition. We don't have to worry about infinite collections here because $X$ is a finite set. The union of any collection of open sets (in this case the only open sets are $\emptyset$ and $X$) is also open (because $\emptyset \cup X = X$, and $X \in \tau_1$), and the intersection of any two open sets is also open (because $\emptyset \cap X = \emptyset$, and $\emptyset \in \tau_1$). Thus this is a valid topology. This topology is known as the "indiscrete" or "trivial" topology on $X$.
+
+$\tau_2$ is just equal to the powerset of $X$. $\emptyset, X \in \mathcal{P}(X)$, so our first condition is met, and the union or intersection of any collection of sets in the powerset will also be in the powerset, so it satisfies our requirement that the union or intersection of any collection of open sets must be open. Thus this too is a valid topology. This topology also has a special name: the "discrete" topology on $X$.
+
+$\emptyset, X \in \tau_3$, so it satisfies our first requirement. Now, does every union and intersection of open sets (elements in $\tau_3$) give a new open set? We can quickly check and see that yes, that condition is satisfied. So $\tau_3$ is a valid topology on $X$.
+
+For $\tau_4$ we can see that $\emptyset, X \in \tau_4$, and any intersection or union of open sets is also an open set, so it is a valid topology on $X$.
+
+$\tau_5$ is the set which is not a valid topology. Why? Because although $\emptyset, X \in \tau_5$, every intersection or union of open sets is not an open set. For example, take the two open sets $\{a, b\}$ and $\{c\}$: their intersection is the empty set, which is in $\tau_5$ and is thus an open set; however, their union is the set $\{a, b, c\}$, which is not in $\tau_5$, and is thus not an open set. Since $\{a, b\}, \{c\} \in \tau_5$, but $(\{a, b\} \cup \{c\}) \not\in \tau_5$, $\tau_5$ is not a topology on $X$.
+
+So what's the point of all of this? Among other uses, a main function of a topology is that it allows us to partition the power set of $X$ into four groups: open sets, closed sets, sets which are both open and closed, and sets which are neither open nor closed.
+
+So we know that an open set in $X$ under some topology $\tau_X$ is any element of $\tau_X$ (remember that elements of $\tau_X$ are subsets of $X$). What's a closed set? A closed set is any set obtained by subtracting an open set from the set $X$. So given $U \in \tau_X$, a closed set $C = X - U$. In other words, a closed set is the complement in $X$ of an open set.
+
+So if we look at our topology $\tau_3$ from above, we can see that
+- $X - \emptyset = X$
+- $X - X = \emptyset$
+- $X - \{c\} = \{a, b\}$
+
+So $X$, $\emptyset$, and $\{a, b\}$ are closed sets in $X$ under the topology $\tau_3$. Note that because $\emptyset$ and $X$ are in every topology (by definition), they are both open in every topology; additionally, $X - X = \emptyset$ and $X - \emptyset = X$, so the emptyset and the set $X$ are both closed in every topology. So $\emptyset$ and $X$ are both open and closed in every topology.
+
+Also, notice that while $\{a, b\}$ is a closed set in $\tau_3$, the same exact set is actually open in $\tau_4$. So different topologies on the same set offer us different ways to partition the set.
+
+The elements of $X$ when $X$ has a topology on it are called "points".
+
+If we have a set $X$ and a topology on $X$ $\tau_X$, we can create a tuple $(X, \tau_X)$ which we call a **topological space**.
+
+The cofinite topology is the topology where open sets are every set which is cofinite in $X$. The cocountable topology is the topology where open sets are every set which is cocountable in $X$.
+
+
+
+---
+
+<html>
+	<center>
+		<svg width="200" height="200">
+			<circle cx="100" cy="100" r="90" stroke="white" stroke-width="4" fill="none"/>
+			<ellipse cx="130" cy="70" rx="65" ry='40' stroke="blue" stroke-width="4" fill="none" transform="rotate(45, 130, 70)" />
+			<ellipse cx="70" cy="130" rx="65" ry='40' stroke="red" stroke-width="4" fill="none" transform="rotate(45, 70, 130)"/>
+			<text x="25" y="25" fill="white">X</text>
+			<text x="130" y="160" fill="red">A</text>
+			<text x="60" y="50" fill="blue">B</text>
+		</svg>
+	</center>
+</html>
+
+In this case, $A$ and $B$ are both subsets of $X$, so $A$ and $B$ could be elements of some topology $\tau$ on $X$.
+
+---
+
 Topology allows us to make concepts like limits and continuity be much more rigorous rather than the solely intuitive notions we previously held.
 
 Given a set $X$, $\tau \in P(X)$ is a topology on $X$ if $\emptyset, X \in \tau$ and $\tau$ only contains open sets, and if:
