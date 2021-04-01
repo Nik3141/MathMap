@@ -60,3 +60,5 @@ tautology: statement which is true no matter the value of the components
 $\top$ and $\bot$?
 
 [[Midterm Review]]
+
+![[Pasted image 20210329141144.png]]
