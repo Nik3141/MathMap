@@ -4,18 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "0ca9e50437141033",
-        "type": "leaf",
-        "active": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Contributor Information/Incomplete Notes.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
         "id": "22d43721934afc76",
         "type": "leaf",
         "pinned": true,
@@ -23,6 +11,18 @@
           "type": "graph",
           "state": {},
           "pinned": true
+        }
+      },
+      {
+        "id": "435917b20877bbb0",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Contributor Information/Roadmap/Intermediate Arithmetic.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -63,8 +63,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "25bfce8f8fa76dd9",
@@ -80,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Contributor Information/Incomplete Notes.md",
+                "file": "Contributor Information/Roadmap/Intermediate Arithmetic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,15 +104,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Contributor Information/Incomplete Notes.md",
-    "Incomplete Notes/Vectors and Linear Algebra.md",
-    "Vectors.md",
-    "Vectors over the Real Numbers.md",
-    "Contributor Information/Add These.md",
-    "Linear Algebra.md",
+    "Contributor Information/Roadmap/Intermediate Arithmetic.md",
+    "Contributor Information/Roadmap/Basic Counting and Arithmetic.md",
+    "Contributor Information/Road Map/Topology.md",
+    "Contributor Information/Road Map/Statistics and Probability.md",
     "Contributor Information/Road Map/Road Map.md",
-    "Galois Theory.md",
-    "Contributor Information/Road Map/Basic Naive Set Theory.md",
-    "Contributor Information/Road Map/Basic Counting and Arithmetic.md"
+    "Contributor Information/Road Map/Intermediate Arithmetic.md",
+    "Contributor Information/Road Map/Euclidean Vectors.md",
+    "Contributor Information/Road Map/Category Theory.md",
+    "Contributor Information/Road Map/Basic Propositional Logic.md",
+    "Contributor Information/Road Map/Basic Naive Set Theory.md"
   ]
 }

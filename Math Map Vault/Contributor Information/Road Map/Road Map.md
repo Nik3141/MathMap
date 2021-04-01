@@ -14,6 +14,7 @@ You can place links to planning notes for new sequences here.
 - [[Category Theory]]
 - [[Euclidean Vectors]]
 - [[Topology]]
+- [[Statistics and Probability]]
 - History of Mathematics Note in Introduction Sequence
 - 
 
